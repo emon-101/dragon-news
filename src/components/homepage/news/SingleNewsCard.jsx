@@ -14,7 +14,7 @@ const SingleNewsCard = ({ n }) => {
         <div className="flex justify-between items-center bg-base-200 p-5">
           {/* author Image */}
           <div className="flex gap-2 items-center">
-            <Image src={author?.img} width={40} height={40} alt={"author Image"} className="rounded-full" />
+            <Image src={author?.img} width={40} height={40} alt={"author Image"} className="rounded-full border-2 border-white" />
             <div className="">
               <h2 className="font-semibold">{author.name}</h2>
               <p>{author.published_date}</p>
