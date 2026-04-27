@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 
 const AuthLayout = ({children}) => {
     return (
-        <div className={montserrat.className}>
+        <div className={`${montserrat.className} bg-slate-100`}>
             <Navbar />
             {children}
         </div>
